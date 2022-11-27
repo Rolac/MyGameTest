@@ -1,5 +1,5 @@
 import { View, Text, Pressable, StyleSheet } from 'react-native';
-import Colors from '../constants/colors';
+import Colors from '../../constants/colors';
 
 function PrimaryButton({ children, onPress }) {
     /** Per mostrare l'effetto ripple dentro il bottone in Android bisogna mettere la View fuorio ed il Pressable dentro */
